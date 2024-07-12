@@ -109,7 +109,7 @@ class Client
         return $authorizationheader;
     }
 
-    private function executeRequest($url, $parameters = array(), $http_header, $http_method)
+    private function executeRequest($url, $parameters, $http_header, $http_method)
     {
 
       $curl_options = array();
