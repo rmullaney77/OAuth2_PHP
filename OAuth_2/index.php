@@ -48,12 +48,12 @@ $refreshTokenPage = $configs['refreshTokenPage'];
     echo '<div> Add the OAuth 2 Consumer Key and OAuth 2 Consumer Secret of your application to config.php file to enable OAuth2 flow.</div> </br>
           <div> Add the oauth_redirect_uri to config.php file. This URL is used by Intuit to redirect the user to your page when user authorized your app. </div> </br>
           <div> Click on the button below to start "Connect to QuickBooks"</div>';
-    echo "<br /> <a class='imgLink' href='/OAuth2_PHP/OAuth_2/OAuth2PHPExample.php'><img style='height: 40px' src='C2QB_white_btn.png'/></a> <br />";
+    echo "<br /> <a class='imgLink' href='OAuth2PHPExample.php'><img style='height: 40px' src='C2QB_white_btn.png'/></a> <br />";
     echo "<h3>Please Complete the \"Sign In With Intuit\" flow:</h3>";
     echo '<div> Add the OAuth 2 Consumer Key and OAuth 2 Consumer Secret of your application to config.php file to enable OpenID flow.</div> </br>
           <div> Add the openID_redirect_uri to config.php file. This URL is used by Intuit to redirect the user to your page when the user agreed for your app retrieving their personal information. </div> </br>
           <div> Click on the button below to start "Sign in with Intuit"</div>';
-    echo "<a class='imgLink' href='/OAuth2_PHP/OAuth_2/OAuthOpenIDExample.php'><img style='height: 40px' src='IntuitSignIn-lg.jpg'/></a>";
+    echo "<a class='imgLink' href='OAuthOpenIDExample.php'><img style='height: 40px' src='IntuitSignIn-lg.jpg'/></a>";
   }
  ?>
 
