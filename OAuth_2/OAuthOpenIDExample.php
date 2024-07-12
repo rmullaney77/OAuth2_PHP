@@ -52,7 +52,7 @@ else
     $userInfo = $client->callForOpenIDEndpoint($openID_accessToken, $usrInfoURL);
     $_SESSION['userInfo'] = $userInfo;
 
-    header("Location: http://localhost/OAuth2_PHP/OAuth_2/index.php");
+    header("Location: index.php");
     exit();
 }
 
