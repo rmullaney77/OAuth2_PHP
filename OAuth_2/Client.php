@@ -61,7 +61,7 @@ class Client
           //The include_granted_scope is always set to false. No need to pass.
           //'include_granted_scope' => $include_granted_scope
         );
-        $authorizationRequestUrl .= '?' . http_build_query($parameters, null, '&', PHP_QUERY_RFC1738);
+        $authorizationRequestUrl .= '?' . http_build_query($parameters, '', '&', PHP_QUERY_RFC1738);
         return $authorizationRequestUrl;
     }
 
